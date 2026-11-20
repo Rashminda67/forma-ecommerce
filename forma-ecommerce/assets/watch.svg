@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700"><defs>
+    <radialGradient id="bg" cx="48%" cy="36%" r="75%"><stop stop-color="#ffffff" stop-opacity=".72"/><stop offset="1" stop-color="#e9e8e1" stop-opacity="1"/></radialGradient>
+    <linearGradient id="shine" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".75"/><stop offset=".45" stop-color="#ffffff" stop-opacity=".05"/><stop offset="1" stop-color="#000000" stop-opacity=".13"/></linearGradient>
+    <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#5f6569"/><stop offset=".24" stop-color="#f4f4f0"/><stop offset=".54" stop-color="#aaaeb1"/><stop offset=".78" stop-color="#f7f7f7"/><stop offset="1" stop-color="#50555a"/></linearGradient>
+    <linearGradient id="dark" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#54585a"/><stop offset="1" stop-color="#15191b"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="mesh" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.3" fill="#eee" opacity=".4"/></pattern>
+    </defs><rect width="700" height="700" fill="url(#bg)"/>
+    <circle cx="555" cy="143" r="170" fill="#e0d3b5" opacity=".095"/>
+    <ellipse cx="356" cy="576" rx="190" ry="29" fill="#222" opacity=".16" filter="url(#shadow)"/><g transform="rotate(-13 350 350)"><rect x="300" y="105" width="100" height="504" rx="35" fill="#d4c6b2"/><path d="M313 129h74v130h-74zM313 445h74v133h-74z" fill="#beaa94" opacity=".5"/><rect x="262" y="248" width="176" height="217" rx="51" fill="#656866"/><rect x="271" y="258" width="158" height="199" rx="43" fill="url(#dark)"/><rect x="285" y="271" width="131" height="173" rx="31" fill="#101719"/><path d="M350 308v60l39 28" stroke="#efe7d6" stroke-width="8" fill="none" stroke-linecap="round"/><circle cx="350" cy="368" r="7" fill="#d9b991"/><circle cx="350" cy="368" r="55" stroke="#e3dfd4" stroke-width="2" opacity=".3" fill="none"/><rect x="437" y="329" width="13" height="32" rx="6" fill="#d3b99d"/></g></svg>
