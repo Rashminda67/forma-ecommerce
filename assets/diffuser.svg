@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700"><defs>
+    <radialGradient id="bg" cx="48%" cy="36%" r="75%"><stop stop-color="#ffffff" stop-opacity=".72"/><stop offset="1" stop-color="#f1eae1" stop-opacity="1"/></radialGradient>
+    <linearGradient id="shine" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".75"/><stop offset=".45" stop-color="#ffffff" stop-opacity=".05"/><stop offset="1" stop-color="#000000" stop-opacity=".13"/></linearGradient>
+    <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#5f6569"/><stop offset=".24" stop-color="#f4f4f0"/><stop offset=".54" stop-color="#aaaeb1"/><stop offset=".78" stop-color="#f7f7f7"/><stop offset="1" stop-color="#50555a"/></linearGradient>
+    <linearGradient id="dark" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#54585a"/><stop offset="1" stop-color="#15191b"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="mesh" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.3" fill="#eee" opacity=".4"/></pattern>
+    </defs><rect width="700" height="700" fill="url(#bg)"/>
+    <circle cx="555" cy="143" r="170" fill="#d2c4b1" opacity=".095"/>
+    <ellipse cx="356" cy="576" rx="190" ry="29" fill="#222" opacity=".16" filter="url(#shadow)"/><g><rect x="302" y="133" width="96" height="55" rx="8" fill="#b5aa97"/><rect x="276" y="180" width="148" height="320" rx="25" fill="#ded0b7"/><rect x="276" y="180" width="148" height="320" rx="25" fill="url(#shine)"/><rect x="299" y="208" width="102" height="263" rx="13" fill="#f4ece0" opacity=".16"/><path d="M351 182 266 78m83 104 1-126m1 126 88-105m-88 105 48-139m-48 139-56-135" stroke="#9e7c5e" stroke-width="9" stroke-linecap="round"/><text x="350" y="392" font-family="Georgia" font-size="24" text-anchor="middle" fill="#827363">atelier</text><path d="M319 413h62" stroke="#aaa18e" stroke-width="2"/></g></svg>
